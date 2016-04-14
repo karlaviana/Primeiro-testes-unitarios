@@ -1,0 +1,23 @@
+package calculadora;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CalculadoraTest {
+
+	@Test
+	public void testSomar(){
+	  int result = Calculadora.Soma(2,3);
+	  int esperado= 5;		  
+	  assertEquals(result, esperado);		
+		}
+	@Test
+	public  void testSubtração(){
+		int result = Calculadora.Subtração(0, 0);
+		int esperado = 0;
+		assertEquals(result, esperado);	
+	}
+	}
+
+
