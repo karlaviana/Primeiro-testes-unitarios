@@ -7,9 +7,18 @@ public class Calculadora {
 		return a + b ;
 	}
    /**
-    * Subtração de dois numeros inteiros
+    * SubtraÃ§Ã£o de dois numeros inteiros
     */
-	public static int Subtração(int a , int b){
+	public static int SubtraÃ§Ã£o(int a , int b){
 		return a-b ;
+}
+
+	public static int MultiplicaÃ§Ã£o(int a, int b) {
+		return a*b;
+}
+	public static int DivisÃ£o(int a, int b) {
+		return a/b;
+	}
+	
 }
 }
