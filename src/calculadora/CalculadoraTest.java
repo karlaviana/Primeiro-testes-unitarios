@@ -19,9 +19,9 @@ public class CalculadoraTest {
    @Test
    public void TestSubtrair(){
 	   Calculadora calc = new Calculadora();
-	   assertTrue(calc.subtrair(1,1)== 0);
-	   assertTrue(calc.subtrair(2,2)== 0);
-	   assertTrue(calc.subtrair(0, 0)== 0);
+	   assertEquals(calc.subtrair(1,1), 0);
+	   assertEquals(calc.subtrair(2,2), 0);
+	   assertEquals(calc.subtrair(0, 0), 0);
     
 }
   @Test 
@@ -38,3 +38,4 @@ public class CalculadoraTest {
 	  assertEquals(calc.dividir(4,1),4);
   }
   
+}
