@@ -1,0 +1,43 @@
+package com.br.pais;
+
+import java.util.ArrayList;
+
+public class Pais {
+	private String nome;
+	private String nomecapital;
+	private int dimensão;
+	private ArrayList listacapitais;
+	public Pais() {
+		// TODO Auto-generated constructor stub
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getNomecapital() {
+		return nomecapital;
+	}
+	public void setNomecapital(String nomecapital) {
+		this.nomecapital = nomecapital;
+	}
+	public int getDimensão() {
+		return dimensão;
+	}
+	public void setDimensão(int dimensão) {
+		this.dimensão = dimensão;
+	}
+	public ArrayList getListacapitais() {
+		return listacapitais;
+	}
+	public void setListacapitais(ArrayList listacapitais) {
+		this.listacapitais = listacapitais;
+	}
+	//metodos da classe pais
+		
+   public boolean NomePaisCapital(String pais, String nomecapital){
+		return false;
+	 
+	   
+   }
