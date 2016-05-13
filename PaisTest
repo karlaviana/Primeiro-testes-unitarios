@@ -1,0 +1,17 @@
+package com.br.PaisTest;
+import org.junit.Assert;
+import org.junit.Test;
+import com.br.pais.Pais;
+
+public class PaisTest extends Pais {
+ private Pais  pais = new Pais();
+	@Test
+	public void TestarNomePais() {
+	Assert.assertEquals("Brasil", "Brasil");
+	}
+	public void TestarNomePaisCapital(){
+		Assert.assertEquals("capital igual", "True");
+		
+	}
+
+}
